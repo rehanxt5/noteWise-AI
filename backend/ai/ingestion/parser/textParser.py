@@ -4,8 +4,10 @@ Docstring for backend.ai.ingestion.parser.textParser
 This module provides functionality to parse text documents for ingestion into the RAG system.
 It includes methods to read text files, clean the content, and prepare it for further processing.
 
-This module can only handle pdf and text files. And will only extract text from these files. Not images,Tables , Charts etc.
-
+Important Note:
+- This module can only handle pdf and text files. And will only extract text from these files. Not images,Tables , Charts etc.
+- Do not use this module for parsing image-based documents as it does not include OCR capabilities.
+- Do not use this module for parsing a pdf which has tables or charts , even if it is indexed it will return unstructured output.
 Author: Rehan Akhtar
 Date: 30 Jan 2026
 '''
