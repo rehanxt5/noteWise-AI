@@ -1,0 +1,49 @@
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment files
+.env
+.env.*
+
+# Build output
+dist/
+build/
+out/
+
+# IDEs and editors
+.vscode/
+venv/
+demo/
+.idea/
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# Others
+coverage/
+*.local
+.design/
+.plan/
+.test/
+.testsite/
+.cache/
+.pytest_cache/
+__pycache__/
+collab/
+.collab/
+.notebooks/
+notebooks/
+test/
+.temp/
+temp/
+notes/
+.notes/
