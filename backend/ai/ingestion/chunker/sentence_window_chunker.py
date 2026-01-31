@@ -24,7 +24,7 @@ def simple_sentence_window_chunker(text: str, chunk_size: int = 5, overlap: int 
         overlap (int): The number of overlapping sentences between consecutive chunks.
 
     Returns:
-        numpy.ndarray: An array containing the text chunks.
+        list: A list of text chunks.
     '''
     cleanedData = re.sub(r'\\[ntru"\'\\]', ' ', text)  # Remove common escapes
     cleanedData = re.sub(r'\\u[0-9a-fA-F]{4}', '', cleanedData)  # Remove unicode escapes
@@ -42,4 +42,4 @@ def simple_sentence_window_chunker(text: str, chunk_size: int = 5, overlap: int 
 
         if len(window)< chunk_size:
             break
-    return np.array(chunks)
+    return chunks

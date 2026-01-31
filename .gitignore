@@ -23,6 +23,7 @@ out/
 venv/
 demo/
 .idea/
+.venv/
 
 # OS generated files
 Thumbs.db
@@ -47,3 +48,10 @@ test/
 temp/
 notes/
 .notes/
+testApp.py
+.files/
+files/
+.documents/
+documents/
+.uploads/
+uploads/
