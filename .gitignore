@@ -24,7 +24,7 @@ venv/
 demo/
 .idea/
 .venv/
-
+dense_retrieval_results.txt
 # OS generated files
 Thumbs.db
 Desktop.ini
