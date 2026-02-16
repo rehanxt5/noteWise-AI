@@ -55,3 +55,10 @@ files/
 documents/
 .uploads/
 uploads/
+
+apiKeys/
+secrets/
+credentials/
+testing/
+.venv-py3/
+.venv-py311/
